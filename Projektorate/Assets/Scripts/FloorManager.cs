@@ -27,6 +27,6 @@ public class FloorManager : MonoBehaviour {
 
     public void CreateFloor()
     {
-        Instantiate(_floors[Random.Range(0, 5)], new Vector3(0, 0, _startPosition), Quaternion.identity);
+        Instantiate(_floors[Random.Range(1, 5)], new Vector3(0, 0, _startPosition), Quaternion.identity);
     }
 }

@@ -30,7 +30,7 @@ public class PlayerMovement : MonoBehaviour {
         moveDirection.y -= _gravity * Time.deltaTime;
         controller.Move(moveDirection * Time.deltaTime);
 
-        if (_transform.position.y < -5)
+        if (_transform.position.y < -5 || _transform.position.z < 0)
         {
             _transform.position = new Vector3(0, -1, 3);
         }
