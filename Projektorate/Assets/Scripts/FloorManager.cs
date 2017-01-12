@@ -10,9 +10,13 @@ public class FloorManager : MonoBehaviour {
 
     // Use this for initialization
     void Start () {
-        for (int i = 0; i < 10; i++)
-        {
-            Instantiate(_floors[Random.Range(0, 5)], new Vector3(0, 0, i * 6.0f), Quaternion.identity);
+        for (int i = 0; i < 10; i++) {
+            if (i < 4) {
+                Instantiate(_floors[0], new Vector3(0, 0, i * 5.0f), Quaternion.identity);
+            }
+            else {
+                Instantiate(_floors[Random.Range(1, 5)], new Vector3(0, 0, i * 5.0f), Quaternion.identity);
+            }          
         }
     }
 	

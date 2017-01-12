@@ -18,10 +18,9 @@ public class FloorPart : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
-        _transform.position += Vector3.back * _speed;
+        _transform.position += (Vector3.back * _speed) * Time.deltaTime;
 
-        if (_transform.position.z < _endPos)
-        {
+        if (_transform.position.z <= _endPos) {
             Destroy(gameObject);
             _floorManager.CreateFloor();
         }        
