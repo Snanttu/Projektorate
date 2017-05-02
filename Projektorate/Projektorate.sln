@@ -1,7 +1,7 @@
-﻿
-Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 2015
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Projektorate", "Projektorate.csproj", "{C346ACAF-7509-F3E2-98BE-E491CF6846A5}"
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2008
+
+Project("{079BC71D-10D4-E849-2FEA-DF7C55000997}") = "Projektorate", "Assembly-CSharp.csproj", "{E5801E2B-4881-B54E-C520-23483DE3660B}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -9,12 +9,15 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{C346ACAF-7509-F3E2-98BE-E491CF6846A5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{C346ACAF-7509-F3E2-98BE-E491CF6846A5}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{C346ACAF-7509-F3E2-98BE-E491CF6846A5}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{C346ACAF-7509-F3E2-98BE-E491CF6846A5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E5801E2B-4881-B54E-C520-23483DE3660B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E5801E2B-4881-B54E-C520-23483DE3660B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E5801E2B-4881-B54E-C520-23483DE3660B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E5801E2B-4881-B54E-C520-23483DE3660B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(MonoDevelopProperties) = preSolution
+		StartupItem = Assembly-CSharp.csproj
 	EndGlobalSection
 EndGlobal
