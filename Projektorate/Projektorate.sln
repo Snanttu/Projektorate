@@ -1,7 +1,11 @@
 Microsoft Visual Studio Solution File, Format Version 11.00
 # Visual Studio 2008
 
+Project("{079BC71D-10D4-E849-2FEA-DF7C55000997}") = "Projektorate", "Assembly-CSharp-firstpass.csproj", "{6BA6025D-542A-0B8D-068A-8CEF6227ED11}"
+EndProject
 Project("{079BC71D-10D4-E849-2FEA-DF7C55000997}") = "Projektorate", "Assembly-CSharp.csproj", "{E5801E2B-4881-B54E-C520-23483DE3660B}"
+EndProject
+Project("{079BC71D-10D4-E849-2FEA-DF7C55000997}") = "Projektorate", "Assembly-CSharp-Editor-firstpass.csproj", "{6F4E7AEB-A361-F1E3-3F6E-0B134EAAC0A5}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -9,10 +13,18 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6BA6025D-542A-0B8D-068A-8CEF6227ED11}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6BA6025D-542A-0B8D-068A-8CEF6227ED11}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6BA6025D-542A-0B8D-068A-8CEF6227ED11}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6BA6025D-542A-0B8D-068A-8CEF6227ED11}.Release|Any CPU.Build.0 = Release|Any CPU
 		{E5801E2B-4881-B54E-C520-23483DE3660B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{E5801E2B-4881-B54E-C520-23483DE3660B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E5801E2B-4881-B54E-C520-23483DE3660B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E5801E2B-4881-B54E-C520-23483DE3660B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6F4E7AEB-A361-F1E3-3F6E-0B134EAAC0A5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6F4E7AEB-A361-F1E3-3F6E-0B134EAAC0A5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6F4E7AEB-A361-F1E3-3F6E-0B134EAAC0A5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6F4E7AEB-A361-F1E3-3F6E-0B134EAAC0A5}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
