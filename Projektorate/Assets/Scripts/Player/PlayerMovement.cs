@@ -13,7 +13,15 @@ public class PlayerMovement : MonoBehaviour {
     public float _moveSpeed;
 	public float _turnSpeed;
     private float _horizontalDirection;
-    private float _verticalDirection;       
+    private float _verticalDirection;
+	private Animator Animator;
+
+	void Awake()
+	{
+		
+		Animator = GetComponent<Animator>();		
+
+	}
 
 	private void Update()
 	{
@@ -32,7 +40,9 @@ public class PlayerMovement : MonoBehaviour {
             _moveDirection = Vector3.zero;
             Vector3 previousLocation = transform.position;
             _moveDirection.x = inputX / 2;
-            _moveDirection.z = inputZ / 2;            
+            _moveDirection.z = inputZ / 2; 
+
+			Animator.SetInteger("animState", 1);
 
             _rigidbody.velocity = _moveDirection.normalized * _moveSpeed;
 			float step = _turnSpeed * Time.deltaTime;
@@ -43,6 +53,7 @@ public class PlayerMovement : MonoBehaviour {
         else
         {            
             _rigidbody.velocity = Vector3.zero;
+			Animator.SetInteger("animState", 0);
         }
     }
 
