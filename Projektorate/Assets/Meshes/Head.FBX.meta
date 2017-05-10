@@ -1,0 +1,226 @@
+fileFormatVersion: 2
+guid: 2feb523343f507b4ca2be44f82b44ef8
+timeCreated: 1494405945
+licenseType: Free
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: BackHair
+    100002: BackHair2
+    100004: BackHair3
+    100006: BackHair4
+    100008: BackHair5
+    100010: BackHair6
+    100012: Curl1
+    100014: Curl2
+    100016: Eye_L
+    100018: Eye_R
+    100020: Eyebrow_L
+    100022: Eyebrow_R
+    100024: Hair
+    100026: Hair2
+    100028: Hair3
+    100030: Hair4
+    100032: Hair5
+    100034: Hair6
+    100036: HairSide_L
+    100038: HairSide_L2
+    100040: HairSide_L3
+    100042: HairSide_L4
+    100044: HairSide_R
+    100046: HairSide_R2
+    100048: HairSide_R3
+    100050: HairSide_R4
+    100052: HairSide_R5
+    100054: //RootNode
+    100056: Iris_L
+    100058: Iris_R
+    400000: BackHair
+    400002: BackHair2
+    400004: BackHair3
+    400006: BackHair4
+    400008: BackHair5
+    400010: BackHair6
+    400012: Curl1
+    400014: Curl2
+    400016: Eye_L
+    400018: Eye_R
+    400020: Eyebrow_L
+    400022: Eyebrow_R
+    400024: Hair
+    400026: Hair2
+    400028: Hair3
+    400030: Hair4
+    400032: Hair5
+    400034: Hair6
+    400036: HairSide_L
+    400038: HairSide_L2
+    400040: HairSide_L3
+    400042: HairSide_L4
+    400044: HairSide_R
+    400046: HairSide_R2
+    400048: HairSide_R3
+    400050: HairSide_R4
+    400052: HairSide_R5
+    400054: //RootNode
+    400056: Iris_L
+    400058: Iris_R
+    2300000: BackHair
+    2300002: BackHair2
+    2300004: BackHair3
+    2300006: BackHair4
+    2300008: BackHair5
+    2300010: BackHair6
+    2300012: Curl1
+    2300014: Curl2
+    2300016: Eye_L
+    2300018: Eye_R
+    2300020: Eyebrow_L
+    2300022: Eyebrow_R
+    2300024: Hair
+    2300026: Hair2
+    2300028: Hair3
+    2300030: Hair4
+    2300032: Hair5
+    2300034: Hair6
+    2300036: HairSide_L
+    2300038: HairSide_L2
+    2300040: HairSide_L3
+    2300042: HairSide_L4
+    2300044: HairSide_R
+    2300046: HairSide_R2
+    2300048: HairSide_R3
+    2300050: HairSide_R4
+    2300052: HairSide_R5
+    2300054: //RootNode
+    2300056: Iris_L
+    2300058: Iris_R
+    3300000: BackHair
+    3300002: BackHair2
+    3300004: BackHair3
+    3300006: BackHair4
+    3300008: BackHair5
+    3300010: BackHair6
+    3300012: Curl1
+    3300014: Curl2
+    3300016: Eye_L
+    3300018: Eye_R
+    3300020: Eyebrow_L
+    3300022: Eyebrow_R
+    3300024: Hair
+    3300026: Hair2
+    3300028: Hair3
+    3300030: Hair4
+    3300032: Hair5
+    3300034: Hair6
+    3300036: HairSide_L
+    3300038: HairSide_L2
+    3300040: HairSide_L3
+    3300042: HairSide_L4
+    3300044: HairSide_R
+    3300046: HairSide_R2
+    3300048: HairSide_R3
+    3300050: HairSide_R4
+    3300052: HairSide_R5
+    3300054: //RootNode
+    3300056: Iris_L
+    3300058: Iris_R
+    4300000: Head
+    4300002: Eye_L
+    4300004: Iris_L
+    4300006: Eye_R
+    4300008: Iris_R
+    4300010: Hair
+    4300012: Hair6
+    4300014: Hair5
+    4300016: Hair4
+    4300018: Hair3
+    4300020: Hair2
+    4300022: Curl2
+    4300024: Curl1
+    4300026: Eyebrow_L
+    4300028: Eyebrow_R
+    4300030: HairSide_R
+    4300032: HairSide_R5
+    4300034: HairSide_R4
+    4300036: HairSide_R3
+    4300038: HairSide_R2
+    4300040: HairSide_L
+    4300042: HairSide_L4
+    4300044: HairSide_L3
+    4300046: HairSide_L2
+    4300048: BackHair
+    4300050: BackHair6
+    4300052: BackHair5
+    4300054: BackHair4
+    4300056: BackHair3
+    4300058: BackHair2
+    9500000: //RootNode
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
