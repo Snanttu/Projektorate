@@ -18,6 +18,7 @@ public class PlayerMovement : MonoBehaviour {
 
 	private bool _running;
 	private bool _attacking;
+	private bool _heavyAttacking;
 
 	void Awake()
 	{
@@ -37,8 +38,12 @@ public class PlayerMovement : MonoBehaviour {
 		StopMoving (Input.GetAxis("Fire3"));
 
 		if (_attacking == true)
-		{            
-			Animator.SetInteger("animState", 0);
+		{    
+			if (_heavyAttacking) {
+				Animator.SetInteger ("animState", 0);
+			} else {
+				Animator.SetInteger ("animState", 0);
+			}
 		}
 		else if (_running == true && _attacking == false) {
 			Animator.SetInteger("animState", 1);
@@ -92,6 +97,7 @@ public class PlayerMovement : MonoBehaviour {
 			_rigidbody.velocity = Vector3.zero;
 			_running = false;
 			_attacking = false;
+			_heavyAttacking = false;
 		}
 
 	}
@@ -107,6 +113,7 @@ public class PlayerMovement : MonoBehaviour {
 
 	public void AttackDone() {
 		_attacking = false;
+		_heavyAttacking = false;
 	}
 
     
