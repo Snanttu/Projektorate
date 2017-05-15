@@ -42,7 +42,7 @@ public class PlayerMovement : MonoBehaviour {
 			if (_heavyAttacking) {
 				Animator.SetInteger ("animState", 0);
 			} else {
-				Animator.SetInteger ("animState", 0);
+				Animator.SetInteger ("animState", 2);
 			}
 		}
 		else if (_running == true && _attacking == false) {
