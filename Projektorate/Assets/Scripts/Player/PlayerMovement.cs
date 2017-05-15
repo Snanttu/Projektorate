@@ -40,7 +40,7 @@ public class PlayerMovement : MonoBehaviour {
 		if (_attacking == true)
 		{    
 			if (_heavyAttacking) {
-				Animator.SetInteger ("animState", 0);
+				Animator.SetInteger ("animState", 2);
 			} else {
 				Animator.SetInteger ("animState", 2);
 			}
@@ -96,8 +96,8 @@ public class PlayerMovement : MonoBehaviour {
 		if (mouse1 != 0) {                
 			_rigidbody.velocity = Vector3.zero;
 			_running = false;
-			_attacking = false;
-			_heavyAttacking = false;
+			_attacking = true;
+			_heavyAttacking = true;
 		}
 
 	}
@@ -107,6 +107,8 @@ public class PlayerMovement : MonoBehaviour {
 		if (shift != 0) {                
 			_rigidbody.velocity = Vector3.zero;
 			_running = false;
+			_attacking = false;
+			_heavyAttacking = false;
 		}
 
 	}
