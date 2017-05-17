@@ -120,8 +120,6 @@ public class PlayerMovement : MonoBehaviour {
 
 		if (i == 1) {
 			_divineLance.Play ();
-		} else {
-			_divineWhip.Play ();
 		}
 
 	}
