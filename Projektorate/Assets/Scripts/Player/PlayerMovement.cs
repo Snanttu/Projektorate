@@ -12,6 +12,8 @@ public class PlayerMovement : MonoBehaviour {
     private Vector3 _moveDirection;
     public float _moveSpeed;
 	public float _turnSpeed;
+	public ParticleSystem _divineLance;
+	public ParticleSystem _divineWhip;
     private float _horizontalDirection;
     private float _verticalDirection;
 	private Animator Animator;
@@ -40,7 +42,7 @@ public class PlayerMovement : MonoBehaviour {
 		if (_attacking == true)
 		{    
 			if (_heavyAttacking) {
-				Animator.SetInteger ("animState", 2);
+				Animator.SetInteger ("animState", 3);
 			} else {
 				Animator.SetInteger ("animState", 2);
 			}
@@ -87,6 +89,7 @@ public class PlayerMovement : MonoBehaviour {
 			_rigidbody.velocity = Vector3.zero;
 			_running = false;
 			_attacking = true;
+			_heavyAttacking = false;
 		}
 
 	}
@@ -109,6 +112,16 @@ public class PlayerMovement : MonoBehaviour {
 			_running = false;
 			_attacking = false;
 			_heavyAttacking = false;
+		}
+
+	}
+
+	public void PlayParticleSystem(int i) {
+
+		if (i == 1) {
+			_divineLance.Play ();
+		} else {
+			_divineWhip.Play ();
 		}
 
 	}
